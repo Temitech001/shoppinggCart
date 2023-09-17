@@ -1,0 +1,174 @@
+:root {
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --color-a-color: hsl(228, 45%, 44%);
+
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kumbh Sans';
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.nav-item {
+  margin: 25px;
+}
+
+.nav-item a:hover {
+  width: 100%;
+  border-bottom: 2px solid var(--Orange);
+  padding-bottom: 38px;
+  transition: 0.35s;
+}
+.nav-uldiv {
+  margin-right: 280px;
+  display: flex;
+}
+.nav-parentdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-img {
+  display: flex;
+  justify-content: center;
+}
+.cart-img {
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+}
+.avatar-img {
+  width: 35px;
+  height: 35px;
+  margin: 14px;
+}
+.nav-logo {
+  margin-left: 200px;
+}
+
+#img-id {
+  margin: 30px;
+}
+.dis-ss {
+  background-color: brown;
+  color: chocolate;
+  width: 37px;
+  font-size: smaller;
+  border: 2px snow;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.dis-250 {
+  text-decoration: line-through;
+  color: hsl(0, 0%, 0%, 0.2);
+}
+.pro1-img {
+  width: 400px;
+  height: 400px;
+}
+.sec1-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.dis125 {
+  display: flex;
+  place-items: center;
+  gap: 10px;
+}
+.dis-ss {
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+}
+
+.icon-pppp {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-inc {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: var(--Light-grayish-blue);
+  padding: 15px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.icon-inc h3 {
+  padding: 0 20px;
+}
+
+.btn-add2 {
+  margin-top: 15px;
+  display: flex;
+  padding: 18px 60px;
+  background-color: var(--Orange);
+  border-radius: 6px;
+  color: var(--White);
+}
+.thumbails img {
+  width: 70px;
+  margin: 0 14px;
+  border-radius: 7px;
+}
+.sneak {
+  color: var(--Orange);
+}
+.text-div {
+  margin-top: 50px;
+}
+.btnpar {
+  display: flex;
+  justify-items: baseline;
+  padding: 10px 23px;
+}
+.btnpar {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+  justify-content: center; /* Horizontally center align items */
+  padding: 10px 23px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btnpar img,
+.btnpar h3 {
+  margin: 0;
+}
+#plus-btn {
+  width: 14px;
+  cursor: pointer;
+}
+#minus-btn {
+  cursor: pointer;
+  width: 14px;
+}
+.carrimg {
+  margin-right: 13px;
+}
